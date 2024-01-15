@@ -21,13 +21,13 @@ function App() {
       <Header />
       <Home />
       <Features />
-      {/* <GetApp /> */}
-      {/* <Analytics /> */}
+      <GetApp />
+    <Analytics />
 
       <Testimonials />
-      {/* <Cta /> */}
+      <Cta />
 
-      {/* <Footer /> */}
+        <Footer />
 
 
     </div>

@@ -4,7 +4,7 @@ import { GiFilmSpool, GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
   return (
-    <nav className="fixed top-0 z-50 w-full h-[3rem] bg-black ">
+<nav className="fixed top-0 z-50 w-full h-[4rem] bg-black shadow-md shadow-gray-700/50">
       <div className="container flex items-center justify-between m-auto relative w-[content]">
         <h1 className="z-40 p-3 md:p-5 lg:p-0 flex text-[22px] lg:text-2xl font-bold cursor-pointer md:ml-0 flew-row">
           KRYPTO

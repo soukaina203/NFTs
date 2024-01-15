@@ -13,7 +13,15 @@ body{
     transform: scaleX(0); /* Initially, the underline will have no width (hidden) */
     transition: transform 0.2s ease; /* Add a transition for smooth effect */
   }
-
+  .underline1::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #97D5D5; /* Set the underline color to orange */
+    /* transform: scaleX(0); /* Initially, the underline will have no width (hidden) */
+    /* transition: transform 0.2s ease; Add a transition for smooth effect */
+  }
   .underlineHover:hover::after {
     transform: scaleX(1);
   }
