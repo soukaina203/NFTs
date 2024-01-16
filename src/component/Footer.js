@@ -1,9 +1,10 @@
 import React from 'react'
+import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
 
 function Footer() {
   return (
  
-
+<Zoom>
 <footer class="">
     <div class="mx-auto w-full max-w-screen-xl">
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-5">
@@ -82,7 +83,7 @@ function Footer() {
 
     </div>
 </footer>
-
+</Zoom>
   )
 }
 
