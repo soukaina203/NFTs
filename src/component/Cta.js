@@ -16,7 +16,7 @@ function Cta() {
         <button type="button" class=" text-white px-4 py-2 font-medium  
  text-md md:px-10 md:py-3 text-center
   items-center   mr-2 mb-2 bg-black  mt-[2rem]
-  rounded-3xl  md:block">
+  lg:rounded-3xl  md:block">
           <Link to="contact" smooth={true} offset={-200} duration={500}>
             GET STARTED
           </Link>

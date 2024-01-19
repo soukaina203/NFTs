@@ -8,7 +8,7 @@ function Footer() {
 <footer class="">
     <div class="mx-auto w-full max-w-screen-xl">
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-5">
-        <h1 className="flex gap-2 py-4 pl-8 text-2xl font-bold text-white cursor-pointer md:ml-0 flew-row ">
+        <h1 className="flex gap-2 py-4 pl-8 text-xl font-bold text-white cursor-pointer lg:text-2xl md:ml-0 flew-row ">
           KRYPTO
         </h1>
         <div>

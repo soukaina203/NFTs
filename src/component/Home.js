@@ -6,7 +6,7 @@ function Home() {
   return (
     <Zoom>{/*Using Zoom Effect*/}
 
-      <div id='home' className='z-40 flex p-4 md:h-[26rem] lg:h-full '>
+      <div className='z-40 flex p-4 md:h-[26rem] lg:h-full '>
 
         <div className='z-40 grid max-w-screen-xl px-4 py-8 mx-auto place-content-center lg:gap-8 xl:gap-0 lg:py-16 md:grid-cols-12 '>
 

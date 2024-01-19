@@ -3,6 +3,8 @@
 @tailwind utilities;
 body{
   overflow-x: hidden;
+  background-color: black;
+  color: white;
 }
 .underlineHover::after {
     content: "";

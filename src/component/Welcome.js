@@ -7,7 +7,7 @@ function Welcome() {
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
-            navigate('/home');
+            navigate('/Home');
         }, 2000);
 
         return () => {
@@ -15,7 +15,6 @@ function Welcome() {
         };
     }, []);
     return (
-<Zoom>
         <div className='w-[100%] h-screen bg-black flex justify-center items-center md:items-start '>
             <div className='w-[15rem] h-[15rem]  flex flex-col justify-center  md:justify-start  md:mt-[9rem]  gap-6 '>
                 <div className='w-[14rem]  ml-auto mr-auto'>
@@ -32,7 +31,6 @@ function Welcome() {
                 </div>
             </div>
         </div>
-        </Zoom>
     )
 }
 
