@@ -29,7 +29,7 @@ function Testimonials() {
               <img src={`nfts/${e.image}.png`} key={e.image} alt=""
                 className='absolute top-0 w-[4rem] h-[4rem]  md:w-[6rem] md:h-[6rem] -translate-y-1/2  -translate-x-1/2 rounded-full ml-auto mr-auto' />
               <h3 key={e.image} className='font-bold text-center mt-10 lg:mt-[0.4rem] lg:text-xl'>{e.name}</h3>
-              <p key={e.image} className="text-[15px] lg:text-[21px] mb-4 mx-auto mt-1 text-center">
+              <p key={e.image} className="text-[15px] text-gray-400 lg:text-[21px] mb-4 mx-auto mt-1 text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
               </p>
             </div>

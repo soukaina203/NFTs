@@ -4,27 +4,30 @@ import { GiFilmSpool, GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
   return (
-    <nav className="fixed top-0 z-50 w-full h-[4rem] bg-black text-white shadow-md shadow-gray-700/50">
-      <div className="container flex items-center justify-between m-auto relative w-[content]">
-        <h1 className="z-40 p-3 md:p-5 lg:p-0 flex text-[22px] lg:text-2xl font-bold cursor-pointer md:ml-0 flew-row">
+    <>
+    
+    <nav className=" w-full h-[4rem] bg-black text-white shadow-md ">
+      <div className="container relative flex items-center justify-between m-auto  w-[content]">
+ 
+        <h1 className=" p-3 md:p-5   lg:p-0 flex text-[22px] lg:text-2xl font-bold cursor-pointer lg:ml-[2rem] flew-row">
           KRYPTO
         </h1>
-        {/* Add the image below */}
+        {/* Add the image below shadow-gray-700/50 */}
 
         <ul className="items-center hidden pr-10 font-normal cursor-pointer lg:flex">
           <li className="px-6 py-4 duration-500 underlineHover">
           <Link to="/Home" smooth={true} offset={200}>  Home </Link>
           </li>
           <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
-          <Link to="/about" smooth={true} offset={200} duration={500}>  About </Link> 
+          <Link to="/About" smooth={true} offset={200} duration={500}>  About </Link> 
           </li>
           <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
-            <Link to="about" smooth={true} offset={-100} duration={500}>
+            <Link to="/Pricing" smooth={true} offset={-100} duration={500}>
               Pricing
             </Link>
           </li>
           <li className="px-6 py-4 duration-500 underlineHover">
-            <Link to="mission" smooth={true} offset={-100} duration={500}>
+            <Link to="/Contact" smooth={true} offset={-100} duration={500}>
               Contact
             </Link>
           </li>
@@ -73,6 +76,7 @@ function Header() {
 
       </div>
     </nav>
+    </>
   )
 }
 

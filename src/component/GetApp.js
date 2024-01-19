@@ -31,7 +31,7 @@ function GetApp() {
 
             <button type="button" class=" text-white rounded-none   font-medium 
                   hover:bg-[#24292F]/90 focus:ring-4 text-sm
-              focus:outline-none focus:ring-[#24292F]/50  lg:rounded-3xl md:text-md p-2 md:px-6 md:py-3 lg:px-4 lg:py-3 text-center
+              focus:outline-none focus:ring-[#24292F]/50   md:text-md p-2 md:px-6 md:py-3 lg:px-4 lg:py-3 text-center
               items-center dark:focus:ring-gray-500  mr-2 mb-2 lg:mb-0
               bg-[#908FDB] ">
               <Link to="contact" smooth={true} offset={-200} duration={500}>

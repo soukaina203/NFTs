@@ -8,6 +8,8 @@ import Header from './component/Header'
 import reportWebVitals from './reportWebVitals';
 import Welcome from './component/Welcome';
 import About from './component/About';
+import Pricing from './component/Pricing';
+import Contact from './component/Contact';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -17,6 +19,8 @@ root.render(
 <Route  path='/' element={<Welcome/>}/>
 <Route  path='/Home' element={<App/>}/>
 <Route  path='/About' element={<About/>}/>
+<Route  path='/Pricing' element={<Pricing/>}/>
+<Route  path='/Contact' element={<Contact/>}/>
 
  </Routes>
     </Router>

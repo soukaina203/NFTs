@@ -13,7 +13,7 @@ function Features() {
 
 
             <div class="flex flex-col md:flex-row items-center gap-[2.5rem] md:gap-[1rem]
-            lg:gap-[6rem] lg:p-8 md:m-4 bg-[#2F2963] rounded-md opacity-70  md:pl-10 md:pr-10 flex-wrap">
+            lg:gap-[6rem] lg:p-8 md:m-4 bg-[#2F2963] rounded-md   md:pl-10 md:pr-10 flex-wrap">
 
               <img src="nfts/techCrunch.png" alt="" className='w-[10rem] h-[5rem] lg:w-[14rem] lg:h-[6rem]' />
               <img src="nfts/fastCompany.png" className='w-[8rem]  h-[2rem]  md:h-[1.5rem]     lg:w-[12rem] lg:h-full  lg:p-2' alt="" />
