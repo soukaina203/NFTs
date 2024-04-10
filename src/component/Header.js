@@ -6,10 +6,10 @@ function Header() {
   return (
     <>
     
-    <nav className=" w-full h-[4rem] bg-black text-white shadow-md ">
+    <nav className="w-full h-[4rem] bg-black text-white shadow-md z-40">
       <div className="container relative flex items-center justify-between m-auto  w-[content]">
  
-        <h1 className=" p-3 md:p-5   lg:p-0 flex text-[22px] lg:text-2xl font-bold cursor-pointer lg:ml-[2rem] flew-row">
+        <h1 className=" p-3 md:p-5 lg:p-0 flex text-[22px] lg:text-2xl font-bold cursor-pointer lg:ml-[2rem] flew-row">
           KRYPTO
         </h1>
         {/* Add the image below shadow-gray-700/50 */}
@@ -42,7 +42,7 @@ function Header() {
 
 
 
-          <div class="absolute top-0 w-8/12 h-screen ml-auto mr-auto transition-all flex items-center duration-500 bg-indigo-900 text-white opacity-0 md:w-5/12 right-full group-focus:right-0 group-focus:opacity-100">
+          <div class="absolute top-0 w-8/12 h-screen ml-auto  transition-all flex items-center duration-500 bg-indigo-900 text-white opacity-0 md:w-5/12 right-full group-focus:right-0 group-focus:opacity-100">
             <ul class="flex flex-col items-center justify-center w-[98%]  font-semibold  m-2">
               <li class=" px-6 py-4 w-full duration-500 uppercase rounded-lg  hover:bg-purple-700">
                 <Link to="/Home" smooth={true} duration={400}>

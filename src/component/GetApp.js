@@ -7,7 +7,7 @@ function GetApp() {
 
   return (
     <Zoom>{/*Using Zoom Effect*/}
-      <div id='GetApp' className='z-0 flex h-full p-4 '>
+      <div id='GetApp' className='z-0 flex h-full  p-4 md:p-[4rem] mr-auto ml-auto'>
 
       <div className='grid max-w-screen-xl px-4 py-8 mx-auto place-content-center lg:gap-8 xl:gap-0 lg:py-16 md:grid-cols-12 '>
 
