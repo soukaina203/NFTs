@@ -35,7 +35,7 @@ const About = () => {
                     </div>
                   </div>
                   <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                    <div className="relative z-10 my-4 ">
+                    <div className="relative my-4 ">
                       <img
                         src="https://i.ibb.co/9y7nYCD/image-3.jpg"
                         alt=""

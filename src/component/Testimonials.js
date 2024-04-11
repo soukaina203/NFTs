@@ -23,7 +23,7 @@ function Testimonials() {
         <div className='container grid lg:w-[61rem] justify-center w-full grid-cols-1 p-10 mx-auto ml-auto mr-auto duration-500 transform
         place-content-center md:p-8 lg:grid-cols-2 2xl:grid-cols-3 gap-x-4 gap-y-4 '>
           {reviews.map((e) => {
-            return <div className='max-w-sm md:p-9 md:pb-6 mx-auto bg-[#2F2963] my-auto duration-300 transform 
+            return <div className='max-w-sm p-6 md:p-9 md:pb-6 mx-auto bg-[#2F2963] my-auto duration-300 transform 
             
             shadow-md cursor-pointer relative'>
               <img src={`nfts/${e.image}.png`} key={e.image} alt=""
