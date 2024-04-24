@@ -42,27 +42,28 @@ function Header() {
 
 
 
-          <div class="absolute top-0 w-8/12 h-screen ml-auto  transition-all flex items-center duration-500 bg-indigo-900 text-white opacity-0 md:w-5/12 right-full group-focus:right-0 group-focus:opacity-100">
+          <div class="absolute top-0 w-8/12 h-screen ml-auto  transition-all flex 
+ items-center duration-500 bg-black text-white opacity-0 md:w-5/12 right-full group-focus:right-0 group-focus:opacity-100">
             <ul class="flex flex-col items-center justify-center w-[98%]  font-semibold  m-2">
-              <li class=" px-6 py-4 w-full duration-500 uppercase rounded-lg  hover:bg-purple-700">
+              <li class=" px-6 py-4 w-full duration-500 uppercase   hover:bg-[#7D7ED7]">
                 <Link to="/Home" smooth={true} duration={400}>
                   About
                 </Link>
               </li>
 
-              <li class="w-full px-6 py-4 duration-500 uppercase hover:bg-purple-700 rounded-lg">
+              <li class="w-full px-6 py-4 duration-500 uppercase hover:bg-[#7D7ED7] rounded-lg">
                 <Link to="/About" smooth={true} duration={400}>
                   Pricing
                 </Link>
               </li>
 
-              <li class="w-full px-6 py-4 duration-500 uppercase hover:bg-purple-700 rounded-lg">
+              <li class="w-full px-6 py-4 duration-500 uppercase hover:bg-[#7D7ED7] rounded-lg">
                 <Link to="mission" smooth={true} offset={-200} duration={400}>
                   Contact
                 </Link>
               </li>
 
-              <li class="w-full px-6 py-4 uppercase duration-500 hover:bg-purple-700 rounded-lg">
+              <li class="w-full px-6 py-4 uppercase duration-500 hover:bg-[#7D7ED7] rounded-lg">
                 <Link to="team" smooth={true} offset={-200} duration={400}>
                   Buy Nfts
                 </Link>

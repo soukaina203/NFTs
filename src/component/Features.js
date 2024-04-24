@@ -13,7 +13,8 @@ function Features() {
 
 
             <div class="flex flex-col md:flex-row items-center gap-[2.5rem] md:gap-[1rem]
-            lg:gap-[6rem] p-[3rem] lg:p-8 md:m-4 border-[#87CFD0]  border-2 rounded-md 
+            lg:gap-[6rem] p-[3rem] lg:p-8 md:m-4 border-[#87CFD0] 
+             border-2 rounded-md 
             
             md:pl-10 md:pr-10 flex-wrap">
 

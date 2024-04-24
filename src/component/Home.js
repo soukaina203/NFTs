@@ -15,7 +15,7 @@ function Home() {
 
           <div className="p-4 mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-5xl font-extrabold leading-none tracking-tight text-transparent
-             md:text-5xl xl:text-6xl md:text-left lg:text-4xl bg-clip-text
+             md:text-5xl  md:text-left lg:text-6xl bg-clip-text
               bg-gradient-to-r from-[#87CFD0] via-[#7D7ED7] to-[#2F2963]"> Discover And   Collect Rare   NFTs
              </h1>
             <p className="max-w-xl mb-6 font-normal text-gray-400 lg:mb-8 md:text-lg lg:text-xl ">
@@ -51,7 +51,7 @@ function Home() {
           </div>
 
           <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="nfts/hero.jpg" alt="" />
+            <img src="nfts/hero.jpg" alt="" className='rounded-full'/>
           </div>
 
 
